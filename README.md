@@ -16,11 +16,26 @@ They used two files
 - population (int), number of inhabitants
 - population_density (float), population density of the city, (inhabitants / area)
 - GRP (float): Gross domestic product, given in billions of EU
-- vaccinated (int): number of inhabitants with full vaccionation with covid 19, (https://support.google.com/websearch/answer/9814707?p=cvd19_statistics&hl=es-419&visit_id=637800463070597691-1199711788&rd=1)
+- vaccinated (int): number of inhabitants with full vaccionation with covid 19, (https://support.google.com/websearch/answer/9814707?p=cvd19_statistics&hl=es-419&visit_id=637800463070597691-1199711788&rd=1), it was calculated from the national average rate by the inhabitants of every city.
   
 ```
 
-(this is information was extracted from wikipedio of each city)<br />
+```plain
+
+- London: https://en.wikipedia.org/wiki/London
+- Madrid: https://en.wikipedia.org/wiki/Madrid
+- Paris: https://en.wikipedia.org/wiki/Paris
+- Vienna: https://en.wikipedia.org/wiki/Vienna
+- Berlin: https://en.wikipedia.org/wiki/Berlin
+- Zürich: https://en.wikipedia.org/wiki/Z%C3%BCrich
+- Athens: https://en.wikipedia.org/wiki/Athens
+- Prague: https://en.wikipedia.org/wiki/Prague
+- Copenhagen: https://en.wikipedia.org/wiki/Copenhagen
+- Rome: https://en.wikipedia.org/wiki/Rome
+  
+```
+
+
 
 <br />
 -europe.geojson, contains the polyline of the costline of europe, with its coordinates in degrees WGS84. File provided by the proffesor of the course.
