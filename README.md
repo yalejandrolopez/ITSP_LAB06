@@ -18,3 +18,11 @@ They used two files
     vaccinated (int): number of inhabitants with full vaccionation with covid 19, (https://support.google.com/websearch/answer/9814707?p=cvd19_statistics&hl=es-419&visit_id=637800463070597691-1199711788&rd=1)<br />
 <br />
 -europe.geojson, contains the polyline of the costline of europe, with its coordinates in degrees WGS84. File provided by the proffesor of the course.
+
+```plain
+
+- Esto es viñeta 1.
+  - Viñeta 1.1 con sangria.
+  - Viñeta N.
+  
+```
