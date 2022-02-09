@@ -9,7 +9,7 @@ They used two files
 
 -data.csv, which a text file format that contains information of cities in europe, with the columns as follows:<br />
 (this is information was extracted from wikipedio of each city)<br />
-    name: (string) name of the city<br />
+    - [name: (string) name of the city]<br />
     lat long (string), contains coordinates decimal degrees in WGS86 of every city, with a blanck space separator in between.<br />
     area (float), area in square kilometers<br />
     population (int), number of inhabitants<br />
