@@ -9,12 +9,12 @@ They used two files
 
 -data.csv, which a text file format that contains information of cities in europe, with the columns as follows:<br />
 (this is information was extracted from wikipedio of each city)<br />
-  name: (string) name of the city<br />
-  lat long (string), contains coordinates decimal degrees in WGS86 of every city, with a blanck space separator in between.<br />
-  area (float), area in square kilometers<br />
-  population (int), number of inhabitants<br />
-  population_density (float), population density of the city, (inhabitants / area)<br />
-  GRP (float): Gross domestic product, given in billions of EU<br />
-  vaccinated (int): number of inhabitants with full vaccionation with covid 19, (https://support.google.com/websearch/answer/9814707?p=cvd19_statistics&hl=es-419&visit_id=637800463070597691-1199711788&rd=1)<br />
+    name: (string) name of the city<br />
+    lat long (string), contains coordinates decimal degrees in WGS86 of every city, with a blanck space separator in between.<br />
+    area (float), area in square kilometers<br />
+    population (int), number of inhabitants<br />
+    population_density (float), population density of the city, (inhabitants / area)<br />
+    GRP (float): Gross domestic product, given in billions of EU<br />
+    vaccinated (int): number of inhabitants with full vaccionation with covid 19, (https://support.google.com/websearch/answer/9814707?p=cvd19_statistics&hl=es-419&visit_id=637800463070597691-1199711788&rd=1)<br />
 <br />
 -europe.geojson, contains the polyline of the costline of europe, with its coordinates in degrees WGS84. File provided by the proffesor of the course.
