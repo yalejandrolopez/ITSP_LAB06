@@ -7,14 +7,14 @@ Python script solution for lab 06 of the course introduction to software program
 These scripts contains the solution of the lab 6 of the class of introduction of software programming.
 They used two files
 
--data.csv, which a text file format that contains information of cities in europe, with the columns as follows:__
-(this is information was extracted from wikipedio of each city)__
-  name: (string) name of the city__
-  lat long (string), contains coordinates decimal degrees in WGS86 of every city, with a blanck space separator in between.__
-  area (float), area in square kilometers__
-  population (int), number of inhabitants__
-  population_density (float), population density of the city, (inhabitants / area)__
-  GRP (float): Gross domestic product, given in billions of EU__
-  vaccinated (int): number of inhabitants with full vaccionation with covid 19, (https://support.google.com/websearch/answer/9814707?p=cvd19_statistics&hl=es-419&visit_id=637800463070597691-1199711788&rd=1)__
+-data.csv, which a text file format that contains information of cities in europe, with the columns as follows:<br />
+(this is information was extracted from wikipedio of each city)<br />
+  name: (string) name of the city
+  lat long (string), contains coordinates decimal degrees in WGS86 of every city, with a blanck space separator in between.
+  area (float), area in square kilometers
+  population (int), number of inhabitants
+  population_density (float), population density of the city, (inhabitants / area)
+  GRP (float): Gross domestic product, given in billions of EU
+  vaccinated (int): number of inhabitants with full vaccionation with covid 19, (https://support.google.com/websearch/answer/9814707?p=cvd19_statistics&hl=es-419&visit_id=637800463070597691-1199711788&rd=1)
 
 -europe.geojson, contains the polyline of the costline of europe, with its coordinates in degrees WGS84. File provided by the proffesor of the course.
